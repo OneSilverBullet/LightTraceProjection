@@ -68,7 +68,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ReferencePath>D:\Develop\Projection\LightTracer\LightTracer\Utilities;D:\Develop\Projection\LightTracer\LightTracer;$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -118,6 +120,76 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Geometric Objects\Beveled Ojects\BeveledBox.h" />
+    <ClInclude Include="Geometric Objects\Beveled Ojects\BeveledWedge.h" />
+    <ClInclude Include="Geometric Objects\Compound Objects\Archway.h" />
+    <ClInclude Include="Geometric Objects\Compound Objects\Compound.h" />
+    <ClInclude Include="Geometric Objects\Compound Objects\Grid.h" />
+    <ClInclude Include="Geometric Objects\Compound Objects\Rosette.h" />
+    <ClInclude Include="Geometric Objects\GeometricObject.h" />
+    <ClInclude Include="Geometric Objects\Instance.h" />
+    <ClInclude Include="Geometric Objects\Part Objects\ConvexPartSphere.h" />
+    <ClInclude Include="Geometric Objects\Primitives\OpenCylinder.h" />
+    <ClInclude Include="Geometric Objects\Primitives\Plane.h" />
+    <ClInclude Include="Geometric Objects\Primitives\Rectangle.h" />
+    <ClInclude Include="Geometric Objects\Primitives\Sphere.h" />
+    <ClInclude Include="Geometric Objects\Primitives\Torus.h" />
+    <ClInclude Include="Geometric Objects\Triangles\FlatMeshTriangle.h" />
+    <ClInclude Include="Geometric Objects\Triangles\MeshTriangle.h" />
+    <ClInclude Include="Geometric Objects\Triangles\SmoothMeshTriangle.h" />
+    <ClInclude Include="Geometric Objects\Triangles\SmoothTriangle.h" />
+    <ClInclude Include="Geometric Objects\Triangles\Triangle.h" />
+    <ClInclude Include="Utilities\BBox.h" />
+    <ClInclude Include="Utilities\Constants.h" />
+    <ClInclude Include="Utilities\Material.h" />
+    <ClInclude Include="Utilities\Maths.h" />
+    <ClInclude Include="Utilities\Matrix.h" />
+    <ClInclude Include="Utilities\Matte.h" />
+    <ClInclude Include="Utilities\Mesh.h" />
+    <ClInclude Include="Utilities\Normal.h" />
+    <ClInclude Include="Utilities\ply.h" />
+    <ClInclude Include="Utilities\Point2D.h" />
+    <ClInclude Include="Utilities\Point3D.h" />
+    <ClInclude Include="Utilities\Ray.h" />
+    <ClInclude Include="Utilities\Reflective.h" />
+    <ClInclude Include="Utilities\RGBColor.h" />
+    <ClInclude Include="Utilities\ShadeRec.h" />
+    <ClInclude Include="Utilities\Vector3D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Geometric Objects\Beveled Ojects\BeveledBox.cpp" />
+    <ClCompile Include="Geometric Objects\Beveled Ojects\BeveledWedge.cpp" />
+    <ClCompile Include="Geometric Objects\Compound Objects\Archway.cpp" />
+    <ClCompile Include="Geometric Objects\Compound Objects\Compound.cpp" />
+    <ClCompile Include="Geometric Objects\Compound Objects\Grid.cpp" />
+    <ClCompile Include="Geometric Objects\Compound Objects\Rosette.cpp" />
+    <ClCompile Include="Geometric Objects\GeometricObject.cpp" />
+    <ClCompile Include="Geometric Objects\Instance.cpp" />
+    <ClCompile Include="Geometric Objects\Part Objects\ConvexPartSphere.cpp" />
+    <ClCompile Include="Geometric Objects\Primitives\OpenCylinder.cpp" />
+    <ClCompile Include="Geometric Objects\Primitives\Plane.cpp" />
+    <ClCompile Include="Geometric Objects\Primitives\Rectangle.cpp" />
+    <ClCompile Include="Geometric Objects\Primitives\Sphere.cpp" />
+    <ClCompile Include="Geometric Objects\Primitives\Torus.cpp" />
+    <ClCompile Include="Geometric Objects\Triangles\FlatMeshTriangle.cpp" />
+    <ClCompile Include="Geometric Objects\Triangles\MeshTriangle.cpp" />
+    <ClCompile Include="Geometric Objects\Triangles\SmoothMeshTriangle.cpp" />
+    <ClCompile Include="Geometric Objects\Triangles\SmoothTriangle.cpp" />
+    <ClCompile Include="Geometric Objects\Triangles\Triangle.cpp" />
+    <ClCompile Include="Utilities\BBox.cpp" />
+    <ClCompile Include="Utilities\Material.cpp" />
+    <ClCompile Include="Utilities\Maths.cpp" />
+    <ClCompile Include="Utilities\Matrix.cpp" />
+    <ClCompile Include="Utilities\Matte.cpp" />
+    <ClCompile Include="Utilities\Mesh.cpp" />
+    <ClCompile Include="Utilities\Normal.cpp" />
+    <ClCompile Include="Utilities\Point2D.cpp" />
+    <ClCompile Include="Utilities\Point3D.cpp" />
+    <ClCompile Include="Utilities\Ray.cpp" />
+    <ClCompile Include="Utilities\Reflective.cpp" />
+    <ClCompile Include="Utilities\RGBColor.cpp" />
+    <ClCompile Include="Utilities\ShadeRec.cpp" />
+    <ClCompile Include="Utilities\Vector3D.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

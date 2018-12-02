@@ -35,9 +35,11 @@ class GeometricObject {
 
 		virtual 												
 		~GeometricObject(void);	
-			
+		
+		//其中ShadeRec对象充当一个工具类，这个用于存储光线跟踪器所需要的全部信息
+		//同时用于对光线与对象碰撞的点进行着色。
 		virtual bool 												 
-		hit(const Ray& ray, double& t, ShadeRec& s) const = 0;	
+		hit(const Ray& ray, double& t, ShadeRec& s) const = 0;	  //设置碰撞函数为纯虚函数。
 		
 		virtual void 							// This needs to be virtual so that it can be overridden in Compound
 		set_material(Material* mPtr); 			// It therefore shouldn't be inlined

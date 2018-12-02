@@ -13,5 +13,255 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Utilities">
+      <UniqueIdentifier>{799d285d-0994-480c-93a1-8e982116d0d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utilities">
+      <UniqueIdentifier>{8b206025-eaf7-4f01-ab4f-ee4287dc583a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GeometricObject">
+      <UniqueIdentifier>{56e9f22c-71bb-4fe5-934c-2ddb6a8a4103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GeometricObject">
+      <UniqueIdentifier>{d275821f-666e-4d39-aa19-867eb30b5a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GeometricObject\Beveled Ojects">
+      <UniqueIdentifier>{3c5f31bf-af46-4ed8-b53b-98115d910b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GeometricObject\Compound Objects">
+      <UniqueIdentifier>{ae5847d7-ddab-4f4f-b81b-458bc52b8e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GeometricObject\Part Objects">
+      <UniqueIdentifier>{fff97247-bc12-4c48-a94b-4bdcf76f8801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GeometricObject\Primitives">
+      <UniqueIdentifier>{472c7d25-2d79-4a3c-a747-7d43f03f6130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GeometricObject\Triangles">
+      <UniqueIdentifier>{e73fe840-be89-433c-ac23-1caa1c629ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GeometricObject\Beveled Ojects">
+      <UniqueIdentifier>{8ea51da8-63d1-49f0-9226-6ae44bca714c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GeometricObject\Compound Objects">
+      <UniqueIdentifier>{212460c7-e2e3-409f-9671-c9b6d2fe36fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GeometricObject\Part Objects">
+      <UniqueIdentifier>{0692ef53-4ede-43c8-bf51-0b3946c15f59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GeometricObject\Primitives">
+      <UniqueIdentifier>{c79daa1c-20c0-4cd4-a73a-227bfab38d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GeometricObject\Triangles">
+      <UniqueIdentifier>{a0f7ba99-c50b-445c-9d6f-cf743f2f7c34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utilities\BBox.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Constants.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Maths.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Matrix.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Mesh.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Normal.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\ply.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Point2D.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Point3D.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Ray.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\RGBColor.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\ShadeRec.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Vector3D.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Beveled Ojects\BeveledBox.h">
+      <Filter>头文件\GeometricObject\Beveled Ojects</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Beveled Ojects\BeveledWedge.h">
+      <Filter>头文件\GeometricObject\Beveled Ojects</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Compound Objects\Archway.h">
+      <Filter>头文件\GeometricObject\Compound Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Compound Objects\Compound.h">
+      <Filter>头文件\GeometricObject\Compound Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Compound Objects\Grid.h">
+      <Filter>头文件\GeometricObject\Compound Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Compound Objects\Rosette.h">
+      <Filter>头文件\GeometricObject\Compound Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Triangles\FlatMeshTriangle.h">
+      <Filter>头文件\GeometricObject\Triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Triangles\MeshTriangle.h">
+      <Filter>头文件\GeometricObject\Triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Triangles\SmoothMeshTriangle.h">
+      <Filter>头文件\GeometricObject\Triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Triangles\SmoothTriangle.h">
+      <Filter>头文件\GeometricObject\Triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Triangles\Triangle.h">
+      <Filter>头文件\GeometricObject\Triangles</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Primitives\OpenCylinder.h">
+      <Filter>头文件\GeometricObject\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Primitives\Plane.h">
+      <Filter>头文件\GeometricObject\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Primitives\Rectangle.h">
+      <Filter>头文件\GeometricObject\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Primitives\Sphere.h">
+      <Filter>头文件\GeometricObject\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Primitives\Torus.h">
+      <Filter>头文件\GeometricObject\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Part Objects\ConvexPartSphere.h">
+      <Filter>头文件\GeometricObject\Part Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\GeometricObject.h">
+      <Filter>头文件\GeometricObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric Objects\Instance.h">
+      <Filter>头文件\GeometricObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Reflective.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Matte.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Material.h">
+      <Filter>头文件\Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Utilities\BBox.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Maths.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Matrix.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Mesh.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Normal.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Point2D.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Point3D.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Ray.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\RGBColor.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\ShadeRec.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Vector3D.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Beveled Ojects\BeveledBox.cpp">
+      <Filter>源文件\GeometricObject\Beveled Ojects</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Beveled Ojects\BeveledWedge.cpp">
+      <Filter>源文件\GeometricObject\Beveled Ojects</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Compound Objects\Archway.cpp">
+      <Filter>源文件\GeometricObject\Compound Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Compound Objects\Compound.cpp">
+      <Filter>源文件\GeometricObject\Compound Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Compound Objects\Grid.cpp">
+      <Filter>源文件\GeometricObject\Compound Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Compound Objects\Rosette.cpp">
+      <Filter>源文件\GeometricObject\Compound Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Part Objects\ConvexPartSphere.cpp">
+      <Filter>源文件\GeometricObject\Part Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Primitives\OpenCylinder.cpp">
+      <Filter>源文件\GeometricObject\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Primitives\Plane.cpp">
+      <Filter>源文件\GeometricObject\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Primitives\Rectangle.cpp">
+      <Filter>源文件\GeometricObject\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Primitives\Sphere.cpp">
+      <Filter>源文件\GeometricObject\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Primitives\Torus.cpp">
+      <Filter>源文件\GeometricObject\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Triangles\FlatMeshTriangle.cpp">
+      <Filter>源文件\GeometricObject\Triangles</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Triangles\MeshTriangle.cpp">
+      <Filter>源文件\GeometricObject\Triangles</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Triangles\SmoothMeshTriangle.cpp">
+      <Filter>源文件\GeometricObject\Triangles</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Triangles\SmoothTriangle.cpp">
+      <Filter>源文件\GeometricObject\Triangles</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Triangles\Triangle.cpp">
+      <Filter>源文件\GeometricObject\Triangles</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\GeometricObject.cpp">
+      <Filter>源文件\GeometricObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric Objects\Instance.cpp">
+      <Filter>源文件\GeometricObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Reflective.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Matte.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Material.cpp">
+      <Filter>源文件\Utilities</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

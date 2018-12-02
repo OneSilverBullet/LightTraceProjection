@@ -3,7 +3,8 @@
 //	This C++ code is licensed under the GNU General Public License Version 2.
 //	See the file COPYING.txt for the full license.
 
-#include "Plane.h"
+
+#include "Plane.h"
 
 const double Plane::kEpsilon = 0.001;
 
@@ -71,8 +72,10 @@ Plane::~Plane(void)
 
 bool 															 
 Plane::hit(const Ray& ray, double& tmin, ShadeRec& sr) const {	
-	float t = (a - ray.o) * n / (ray.d * n); 
-														
+	float t = (a - ray.o) * n / (ray.d * n);  //依据公式计算出唯一的碰撞点参数t
+	//注意：如果光线与平面平行的话，那么ray.d*n会为0。C++/0操作为INF，因此不会导致渲染器崩溃。
+
+	//如果t>kEpsilon，那么更新ShadeRec的信息，将光线碰撞信息写入其中。
 	if (t > kEpsilon) {
 		tmin = t;
 		sr.normal = n;
@@ -84,4 +87,4 @@ Plane::hit(const Ray& ray, double& tmin, ShadeRec& sr) const {
 	return(false);
 }
 
-
+

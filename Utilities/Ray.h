@@ -15,7 +15,7 @@ class Ray {
 	public:
 	    //这里使用公式p=o+td 
 		//其中t=0时，代表光线的原点。
-		//t值反映了沿着光线方向距离原点的距离
+		//t值反映了沿着光线方向距离原点的距离-+
 		Point3D			o;  	// origin 
 		Vector3D		d; 		// direction 
 		
