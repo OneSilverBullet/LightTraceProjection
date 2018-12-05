@@ -13,7 +13,7 @@
 // Making the normals public simplifies the code in the Grid::tessellate_smooth_sphere. This is currently
 // the only function that uses this class. The only figure that uses it is Figure 23.3
 
-#include "GeometricObject.h"
+#include "../GeometricObject.h"
 
 class SmoothTriangle: public GeometricObject {
 	public:

@@ -4,7 +4,7 @@
 //	See the file COPYING.txt for the full license.
 
 
-#include "Maths.h"	// for SolveQuartic
+#include "../../Utilities/Maths.h"	// for SolveQuartic
 #include "Torus.h"
 
 

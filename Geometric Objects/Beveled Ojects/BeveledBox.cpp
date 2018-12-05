@@ -7,13 +7,13 @@
 // This file contains the definition of the class BeveledBox
 
 #include "BeveledBox.h"
-#include "OpenCylinder.h"
-#include "Rectangle.h"
-#include "Sphere.h"
-#include "Instance.h"
+#include "../Primitives/OpenCylinder.h"
+#include "../Primitives/Rectangle.h"
+#include "../Primitives/Sphere.h"
+#include "../Instance.h"
 
-#include "Vector3D.h"
-#include "Normal.h"
+#include "../../Utilities/Vector3D.h"
+#include "../../Utilities/Normal.h"
 
 
 // ------------------------------------------------------------------------------ default constructor

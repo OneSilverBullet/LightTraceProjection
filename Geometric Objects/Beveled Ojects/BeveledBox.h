@@ -13,9 +13,9 @@
 // The parameters are the opposite corners and the bevel radius
 // Hit functions are defined that test if the ray hits the bounding box
 
-#include "Compound.h"
-#include "Point3D.h"
-#include "BBox.h"
+#include "../Compound Objects/Compound.h"
+#include "../../Utilities/Point3D.h"
+#include "../../Utilities/BBox.h"
 
 class BeveledBox: public Compound {
 	public:
@@ -55,4 +55,4 @@ class BeveledBox: public Compound {
 };
 
 #endif
-
+

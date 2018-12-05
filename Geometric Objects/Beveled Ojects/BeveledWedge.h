@@ -17,7 +17,7 @@
 				
 // There is no default constructor				
 				
-#include "Compound.h"
+#include "../Compound Objects/Compound.h"
 
 //-------------------------------------------------------------------------------- class BeveledWedge
 

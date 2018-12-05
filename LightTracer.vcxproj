@@ -120,6 +120,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BRDFs\BRDF.h" />
+    <ClInclude Include="BRDFs\GlossySpecular.h" />
+    <ClInclude Include="BRDFs\Lambertian.h" />
+    <ClInclude Include="BRDFs\PerfectSpecular.h" />
+    <ClInclude Include="Cameras\Camera.h" />
+    <ClInclude Include="Cameras\Pinhole.h" />
     <ClInclude Include="Geometric Objects\Beveled Ojects\BeveledBox.h" />
     <ClInclude Include="Geometric Objects\Beveled Ojects\BeveledWedge.h" />
     <ClInclude Include="Geometric Objects\Compound Objects\Archway.h" />
@@ -139,6 +145,19 @@
     <ClInclude Include="Geometric Objects\Triangles\SmoothMeshTriangle.h" />
     <ClInclude Include="Geometric Objects\Triangles\SmoothTriangle.h" />
     <ClInclude Include="Geometric Objects\Triangles\Triangle.h" />
+    <ClInclude Include="Samplers\Hammersley.h" />
+    <ClInclude Include="Samplers\Jittered.h" />
+    <ClInclude Include="Samplers\MultiJittered.h" />
+    <ClInclude Include="Samplers\NRooks.h" />
+    <ClInclude Include="Samplers\PureRandom.h" />
+    <ClInclude Include="Samplers\Regular.h" />
+    <ClInclude Include="Samplers\Sampler.h" />
+    <ClInclude Include="Tracers\AreaLighting.h" />
+    <ClInclude Include="Tracers\MultipleObjects.h" />
+    <ClInclude Include="Tracers\RayCast.h" />
+    <ClInclude Include="Tracers\SingleSphere.h" />
+    <ClInclude Include="Tracers\Tracer.h" />
+    <ClInclude Include="Tracers\Whitted.h" />
     <ClInclude Include="Utilities\BBox.h" />
     <ClInclude Include="Utilities\Constants.h" />
     <ClInclude Include="Utilities\Material.h" />
@@ -155,8 +174,15 @@
     <ClInclude Include="Utilities\RGBColor.h" />
     <ClInclude Include="Utilities\ShadeRec.h" />
     <ClInclude Include="Utilities\Vector3D.h" />
+    <ClInclude Include="world.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BRDFs\BRDF.cpp" />
+    <ClCompile Include="BRDFs\GlossySpecular.cpp" />
+    <ClCompile Include="BRDFs\Lambertian.cpp" />
+    <ClCompile Include="BRDFs\PerfectSpecular.cpp" />
+    <ClCompile Include="Cameras\Camera.cpp" />
+    <ClCompile Include="Cameras\Pinhole.cpp" />
     <ClCompile Include="Geometric Objects\Beveled Ojects\BeveledBox.cpp" />
     <ClCompile Include="Geometric Objects\Beveled Ojects\BeveledWedge.cpp" />
     <ClCompile Include="Geometric Objects\Compound Objects\Archway.cpp" />
@@ -176,6 +202,19 @@
     <ClCompile Include="Geometric Objects\Triangles\SmoothMeshTriangle.cpp" />
     <ClCompile Include="Geometric Objects\Triangles\SmoothTriangle.cpp" />
     <ClCompile Include="Geometric Objects\Triangles\Triangle.cpp" />
+    <ClCompile Include="Samplers\Hammersley.cpp" />
+    <ClCompile Include="Samplers\Jittered.cpp" />
+    <ClCompile Include="Samplers\MultiJittered.cpp" />
+    <ClCompile Include="Samplers\NRooks.cpp" />
+    <ClCompile Include="Samplers\PureRandom.cpp" />
+    <ClCompile Include="Samplers\Regular.cpp" />
+    <ClCompile Include="Samplers\Sampler.cpp" />
+    <ClCompile Include="Tracers\AreaLighting.cpp" />
+    <ClCompile Include="Tracers\MultipleObjects.cpp" />
+    <ClCompile Include="Tracers\RayCast.cpp" />
+    <ClCompile Include="Tracers\SingleSphere.cpp" />
+    <ClCompile Include="Tracers\Tracer.cpp" />
+    <ClCompile Include="Tracers\Whitted.cpp" />
     <ClCompile Include="Utilities\BBox.cpp" />
     <ClCompile Include="Utilities\Material.cpp" />
     <ClCompile Include="Utilities\Maths.cpp" />

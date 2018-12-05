@@ -11,17 +11,17 @@
 
 #include "BeveledWedge.h"
 
-#include "Constants.h"
+#include "../../Utilities/Constants.h"
 
 #include "Annulus.h"
 #include "ConcavePartCylinder.h"
 #include "ConvexPartCylinder.h"
 #include "ConvexPartTorus.h"
-#include "Instance.h"
-#include "OpenCylinder.h"
+#include "../Instance.h"
+#include "../Primitives/OpenCylinder.h"
 #include "PartAnnulus.h"
-#include "Rectangle.h"
-#include "Sphere.h"
+#include "../Primitives/Rectangle.h"
+#include "../Primitives/Sphere.h"
 
 // ------------------------------------------------------------------------------ constructor
 

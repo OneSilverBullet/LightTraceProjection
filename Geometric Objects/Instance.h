@@ -12,7 +12,7 @@
 // whose bouding box is expensive to compute.
 
 #include "GeometricObject.h"
-#include "Matrix.h"
+#include "../Utilities/Matrix.h"
 
 class Instance: public GeometricObject {	
 	public:

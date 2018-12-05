@@ -7,8 +7,8 @@
 // This file contains the definition of the class Archway
 
 #include "Archway.h"
-#include "BeveledBox.h"
-#include "BeveledWedge.h"
+#include "../Beveled Ojects/BeveledBox.h"
+#include "../Beveled Ojects/BeveledWedge.h"
 
 // ------------------------------------------------------------------------------ constructor
 

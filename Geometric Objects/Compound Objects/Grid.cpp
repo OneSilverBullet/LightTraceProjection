@@ -9,22 +9,22 @@
 #include <vector>
 #include <math.h>
 
-#include "Constants.h"
+#include "../../Utilities/Constants.h"
 
-#include "Vector3D.h"
-#include "Point3D.h"
+#include "../../Utilities/Vector3D.h"
+#include "../../Utilities/Point3D.h"
 #include "Grid.h"
 
-#include "MeshTriangle.h"
-#include "FlatMeshTriangle.h"
-#include "SmoothMeshTriangle.h"
-#include "FlatUVMeshTriangle.h"
-#include "SmoothUVMeshTriangle.h"
+#include "../Triangles/MeshTriangle.h"
+#include "../Triangles/FlatMeshTriangle.h"
+#include "../Triangles/SmoothMeshTriangle.h"
+//#include "../Triangles/FlatUVMeshTriangle.h"
+//#include "../Triangles/SmoothUVMeshTriangle.h"
 
-#include "Triangle.h"
-#include "SmoothTriangle.h"
+#include "../Triangles/Triangle.h"
+#include "../Triangles/SmoothTriangle.h"
 
-#include "ply.h"
+#include "../../Utilities/ply.h"
 
 typedef enum {
 	flat, 

@@ -12,7 +12,7 @@
 // The classes ConcaveOpenCylinder and ConvexOpenCylinder can inherit from OpenCylinder.
 // The classes ConcavePartCylinder and ConvexPartCylinder can in turn inherit from these.
 
-#include "GeometricObject.h"
+#include "../GeometricObject.h"
 
 class OpenCylinder: public GeometricObject {
 	

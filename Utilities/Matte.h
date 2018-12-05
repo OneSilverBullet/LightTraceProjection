@@ -9,7 +9,7 @@
 
 
 #include "Material.h"
-#include "Lambertian.h"
+#include "../BRDFs/Lambertian.h"
 
 //----------------------------------------------------------------------------- class Matte
 

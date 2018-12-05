@@ -8,7 +8,7 @@
 
 
 #include "Phong.h"
-#include "PerfectSpecular.h"
+#include "../BRDFs/PerfectSpecular.h"
 
 class Reflective: public Phong {	
 	public:

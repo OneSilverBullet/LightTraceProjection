@@ -55,6 +55,30 @@
     <Filter Include="源文件\GeometricObject\Triangles">
       <UniqueIdentifier>{a0f7ba99-c50b-445c-9d6f-cf743f2f7c34}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\BRDF">
+      <UniqueIdentifier>{6f7a8d8c-e250-49b4-8c9d-70fa564969eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BRDF">
+      <UniqueIdentifier>{7b871f8f-5e18-40cf-8ff2-fff7509911e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Sampler">
+      <UniqueIdentifier>{6f0651d0-6311-4e73-8230-72c856e6e0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Sampler">
+      <UniqueIdentifier>{4b178a28-2961-4449-bf49-efa6988e004a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tracer">
+      <UniqueIdentifier>{bce6f38f-4049-44f8-b6e0-5790ffbf8252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Camera">
+      <UniqueIdentifier>{1658693f-89e2-4fa6-81f0-36381659b5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Camera">
+      <UniqueIdentifier>{cbcb71d0-c136-4d6c-932d-dd63a8536895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Tracer">
+      <UniqueIdentifier>{6f6b4dd7-12ae-4da2-b35a-3cc5143397aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Utilities\BBox.h">
@@ -162,6 +186,66 @@
     <ClInclude Include="Utilities\Material.h">
       <Filter>头文件\Utilities</Filter>
     </ClInclude>
+    <ClInclude Include="BRDFs\BRDF.h">
+      <Filter>头文件\BRDF</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDFs\GlossySpecular.h">
+      <Filter>头文件\BRDF</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDFs\Lambertian.h">
+      <Filter>头文件\BRDF</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDFs\PerfectSpecular.h">
+      <Filter>头文件\BRDF</Filter>
+    </ClInclude>
+    <ClInclude Include="Samplers\Hammersley.h">
+      <Filter>头文件\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Samplers\Jittered.h">
+      <Filter>头文件\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Samplers\MultiJittered.h">
+      <Filter>头文件\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Samplers\NRooks.h">
+      <Filter>头文件\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Samplers\PureRandom.h">
+      <Filter>头文件\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Samplers\Regular.h">
+      <Filter>头文件\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Samplers\Sampler.h">
+      <Filter>头文件\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracers\AreaLighting.h">
+      <Filter>头文件\Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracers\MultipleObjects.h">
+      <Filter>头文件\Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracers\RayCast.h">
+      <Filter>头文件\Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracers\SingleSphere.h">
+      <Filter>头文件\Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracers\Tracer.h">
+      <Filter>头文件\Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracers\Whitted.h">
+      <Filter>头文件\Tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="Cameras\Camera.h">
+      <Filter>头文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Cameras\Pinhole.h">
+      <Filter>头文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Utilities\BBox.cpp">
@@ -262,6 +346,63 @@
     </ClCompile>
     <ClCompile Include="Utilities\Material.cpp">
       <Filter>源文件\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="BRDFs\BRDF.cpp">
+      <Filter>源文件\BRDF</Filter>
+    </ClCompile>
+    <ClCompile Include="BRDFs\GlossySpecular.cpp">
+      <Filter>源文件\BRDF</Filter>
+    </ClCompile>
+    <ClCompile Include="BRDFs\Lambertian.cpp">
+      <Filter>源文件\BRDF</Filter>
+    </ClCompile>
+    <ClCompile Include="BRDFs\PerfectSpecular.cpp">
+      <Filter>源文件\BRDF</Filter>
+    </ClCompile>
+    <ClCompile Include="Samplers\Hammersley.cpp">
+      <Filter>源文件\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Samplers\Jittered.cpp">
+      <Filter>源文件\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Samplers\MultiJittered.cpp">
+      <Filter>源文件\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Samplers\NRooks.cpp">
+      <Filter>源文件\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Samplers\PureRandom.cpp">
+      <Filter>源文件\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Samplers\Regular.cpp">
+      <Filter>源文件\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Samplers\Sampler.cpp">
+      <Filter>源文件\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracers\AreaLighting.cpp">
+      <Filter>源文件\Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracers\MultipleObjects.cpp">
+      <Filter>源文件\Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracers\RayCast.cpp">
+      <Filter>源文件\Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracers\SingleSphere.cpp">
+      <Filter>源文件\Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracers\Tracer.cpp">
+      <Filter>源文件\Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracers\Whitted.cpp">
+      <Filter>源文件\Tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="Cameras\Camera.cpp">
+      <Filter>源文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Cameras\Pinhole.cpp">
+      <Filter>源文件\Camera</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

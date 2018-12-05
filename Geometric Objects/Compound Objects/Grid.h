@@ -19,9 +19,9 @@
 // a separate class called TriangleMesh that inherits from Grid.
 
 
-#include "Compound.h"
-#include "ShadeRec.h"
-#include "Mesh.h"
+#include "../Compound Objects/Compound.h"
+#include "../../Utilities/ShadeRec.h"
+#include "../../Utilities/Mesh.h"
 
 
 //---------------------------------------------------------------------- class Grid

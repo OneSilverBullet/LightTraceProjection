@@ -11,7 +11,7 @@
 // This is a part sphere where the surface normal always points outwards
 // If you study the code here you should be able to implement other part objects
 
-#include "GeometricObject.h"
+#include "../GeometricObject.h"
 
 //-------------------------------------------------------------------------------- class ConvexPartSphere
 

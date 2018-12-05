@@ -9,7 +9,7 @@
 
 #include <vector> 
 
-#include "GeometricObject.h"
+#include "../GeometricObject.h"
 
 //-------------------------------------------------------------------------------- class Compound
 

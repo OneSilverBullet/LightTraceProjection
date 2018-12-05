@@ -11,7 +11,7 @@
 
 
 #include "Rosette.h"
-#include "BeveledWedge.h"
+#include "../Beveled Ojects/BeveledWedge.h"
 
 const int Rosette::num_wedges[6] = {10, 12, 15, 18, 24, 36};  // these numbers exactly divide into 360
 

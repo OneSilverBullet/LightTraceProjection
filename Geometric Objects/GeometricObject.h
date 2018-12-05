@@ -9,14 +9,14 @@
 
 #include <math.h>  // a lot of hit functions use use maths functions
 
-#include "Constants.h"
-#include "BBox.h"
-#include "RGBColor.h"
-#include "Point3D.h"
-#include "Vector3D.h"
-#include "Normal.h"
-#include "Ray.h"
-#include "ShadeRec.h"
+#include "../Utilities/Constants.h"
+#include "../Utilities/BBox.h"
+#include "../Utilities/RGBColor.h"
+#include "../Utilities/Point3D.h"
+#include "../Utilities/Vector3D.h"
+#include "../Utilities/Normal.h"
+#include "../Utilities/Ray.h"
+#include "../Utilities/ShadeRec.h"
 
 class Material;	
 
